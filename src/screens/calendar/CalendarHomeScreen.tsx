@@ -1,10 +1,10 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-export default function MapHomeScreen() {
+export default function CalendarHomeScreen() {
   return (
     <View>
-      <Text>MapHomeScreen</Text>
+      <Text>CalendarHomeScreen</Text>
     </View>
   );
 }
