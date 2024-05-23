@@ -25,7 +25,7 @@ export default function SginupScreen() {
       {email, password},
       {
         onSuccess: () => {
-          loginMutation.mutate(signup.values);
+          loginMutation.mutate({email, password});
         },
       },
     );

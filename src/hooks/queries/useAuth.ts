@@ -52,7 +52,7 @@ function useGetRefreshToken() {
 
   useEffect(() => {
     if (isSuccess) {
-      setHeader('Authorization', `Beare ${data.accessToken}`);
+      setHeader('Authorization', `Bearer ${data.accessToken}`);
       setEncryptStorage('refreshToken', data.refreshToken);
     }
   }, [isSuccess]);
